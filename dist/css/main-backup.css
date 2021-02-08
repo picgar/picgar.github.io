@@ -1,0 +1,49 @@
+/*
+Error: Invalid CSS after "            }": expected "}", was ""
+        on line 170 of src/scss/main.scss
+
+165:             nav ul li a,
+166:             nav ul li a:link,
+167:             nav ul li a:visited{
+168:               display: block;
+169:               border-bottom: 1px solid #777;
+170:             }
+
+Backtrace:
+src/scss/main.scss:170
+/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:1308:in `expected'
+/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:1238:in `expected'
+/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:1233:in `tok!'
+/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:690:in `block'
+/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:421:in `media_directive'
+/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:234:in `special_directive'
+/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:209:in `directive'
+/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:708:in `block_child'
+/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:700:in `block_contents'
+/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:689:in `block'
+/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:421:in `media_directive'
+/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:234:in `special_directive'
+/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:209:in `directive'
+/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:708:in `block_child'
+/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:700:in `block_contents'
+/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:689:in `block'
+/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:421:in `media_directive'
+/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:234:in `special_directive'
+/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:209:in `directive'
+/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:707:in `block_child'
+/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:700:in `block_contents'
+/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:137:in `stylesheet'
+/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:41:in `parse'
+/usr/lib/ruby/vendor_ruby/sass/engine.rb:414:in `_to_tree'
+/usr/lib/ruby/vendor_ruby/sass/engine.rb:389:in `_render_with_sourcemap'
+/usr/lib/ruby/vendor_ruby/sass/engine.rb:307:in `render_with_sourcemap'
+/usr/lib/ruby/vendor_ruby/sass/exec/sass_scss.rb:383:in `run'
+/usr/lib/ruby/vendor_ruby/sass/exec/sass_scss.rb:63:in `process_result'
+/usr/lib/ruby/vendor_ruby/sass/exec/base.rb:50:in `parse'
+/usr/lib/ruby/vendor_ruby/sass/exec/base.rb:18:in `parse!'
+/usr/bin/sass:8:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"            }\": expected \"}\", was \"\"\A         on line 170 of src/scss/main.scss\A \A 165:             nav ul li a,\A 166:             nav ul li a:link,\A 167:             nav ul li a:visited{\A 168:               display: block;\A 169:               border-bottom: 1px solid #777;\A 170:             }"; }
