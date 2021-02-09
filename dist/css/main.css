@@ -52,7 +52,7 @@ header {
   }
   
   nav ul li a:hover{
-    background: #444;
+    background: rgb(247, 234, 163);
   }
 
   main {
@@ -73,10 +73,12 @@ header {
 }
 
 @media only screen and (max-width: 960px)  {
+    nav {
         nav {
             display:none;
+        }
     }
-  }
+}
 
 #toggleMenu {
     display: none;
