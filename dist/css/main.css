@@ -46,7 +46,7 @@ header {
   nav ul li a:visited{
     display: inline-block;
     padding: 0 .5rem;
-    color: #fff;
+    color: rgb(57, 37, 235);
     line-height: 50px;
     text-decoration: none;
   }
