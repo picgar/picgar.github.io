@@ -10,6 +10,7 @@ html {
 
 h1 {
     font-size: 2rem;
+    text-transform: uppercase;
 }
 
 h2 {
@@ -51,4 +52,9 @@ a {
 .profile p {
     color: #888;
     margin-bottom: 1rem;
+    font-size: 1.25rem;
+}
+
+.contact li {
+    text-align: right;
 }
