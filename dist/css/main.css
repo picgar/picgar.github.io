@@ -6,6 +6,12 @@
 
 html {
     color: #222;
+    font-family: "Josefin Sans";
+    line-height: 1.5;
+}
+
+body {
+    padding: 1rem;
 }
 
 h1 {
@@ -23,7 +29,10 @@ h2 {
 }
 
 h3 {
-    font-size: 1.25rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: salmon;
+    margin-bottom: 1rem;
 }
 
 p {
@@ -36,6 +45,10 @@ section + section {
 
 li + li {
     margin-top: 0.5rem;
+}
+
+ul {
+    list-style: none;
 }
 
 a {
@@ -70,4 +83,10 @@ a {
     color: #888;
     border-top: 1px solid #888;
     border-bottom: 1px solid #888;
+}
+
+.skills > ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
 }
