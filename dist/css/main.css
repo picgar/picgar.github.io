@@ -89,3 +89,18 @@ a {
     grid-template-columns: 1fr 1fr;
     grid-gap: 1rem;
 }
+
+.event + .event {
+    padding-top: 1rem;
+}
+
+.event {
+    display: grid;
+    grid-template-columns: 5ch 1fr;
+}
+
+.content {
+    border-left: 1px solid #888;
+    padding-left: 1rem;
+    margin-left: 1rem;
+}
