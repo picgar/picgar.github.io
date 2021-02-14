@@ -11,7 +11,9 @@ html {
 }
 
 body {
-    padding: 1rem;
+    padding: 2rem 2.5rem;
+    background: linear-gradient(#888,
+    #888 50%, salmon 50%, salmon);
 }
 
 h1 {
@@ -20,11 +22,11 @@ h1 {
 }
 
 h2 {
-    font-size: 1.25rem;
+    font-size: 1.1rem;
     text-transform: uppercase;
     border-top: 1px solid #888;
     border-bottom: 1px solid #888;
-    padding: 1rem 0;
+    padding: 0.75rem 0;
     margin-bottom: 2rem;
 }
 
@@ -103,4 +105,12 @@ a {
     border-left: 1px solid #888;
     padding-left: 1rem;
     margin-left: 1rem;
+}
+
+.resume {
+    display: grid;
+    grid-template-columns: 40% lfr;
+    grid-gap: 4rem;
+    background-color: white;
+    padding: 1rem;
 }
