@@ -85,7 +85,7 @@ a {
     border-bottom: 1px solid #888;
 }
 
-.skills > ul {
+.core-competencies > ul {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 1rem;
