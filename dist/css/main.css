@@ -12,8 +12,8 @@ html {
 
 body {
     padding: 2rem 2.5rem;
-    background: linear-gradient(#888,
-    #888 50%, salmon 50%, salmon);
+    background: linear-gradient(rgb(90, 100, 240),
+    rgb(90, 100, 240) 50%, rgb(250, 236, 114) 50%, rgb(250, 236, 114));
 }
 
 h1 {
@@ -33,7 +33,7 @@ h2 {
 h3 {
     font-size: 1rem;
     text-transform: uppercase;
-    color: salmon;
+    color: rgb(26, 8, 182);
 }
 
 p {
